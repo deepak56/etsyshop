@@ -1,0 +1,172 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS Reset ends */
+
+body{
+	background-color: #0d1725
+}
+
+h1{
+	font-size: 44px;
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	color: white;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+h3{
+	font-size: 24px;
+	font-family: Papyrus, fantasy;
+	font-weight: bold;
+	color: white;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+}
+
+#color-choice{
+	height: 80px;
+	width: 500px;
+	margin:	0 auto;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.box{
+	height: 60px;
+	width: 60px;
+	display: inline-block;	
+	padding: 5px;
+	margin: 5px;
+	border-radius: 10px;	
+	
+}
+
+.box:hover{
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  -moz-transform: rotate(5deg);
+  -o-transform: rotate(5deg);
+  transform: rotate(5deg);
+}
+
+.red{
+	background-color: #bf3f3f;
+}
+
+.purple{
+	background-color: #325590;
+}
+
+.green{
+	background-color: #3ebb69;
+}
+
+.yellow{
+	background-color: yellow;
+}
+
+.white{
+	background-color: white;
+}
+
+#mainselection{
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#noselection{
+	margin: 0 auto;
+	margin-top: 15px;
+	text-align: center;
+}
+
+#noselection div{
+	display: inline-block;
+}
+
+#noselection div img{
+	height:380px;
+	width: 380px;
+}
+
+figcaption{
+	color: white;
+	font-size: 34px;
+	font-family: Papyrus, fantasy;
+}
+
+
+.etsyimages {
+	width: 300px;
+	background-color: #2e6a85;
+	border-radius: 2px;
+	display: inline-block;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+.etsyimages img{
+	margin: 15px;
+	border: 5px solid white;
+	position: relative;
+	height: 100px;
+	width: 100px;
+	
+}
+
+.etsyimages img:hover{
+	-webkit-filter: brightness(120%);
+}
